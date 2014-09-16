@@ -1,10 +1,10 @@
 ##设置开发环境
-我们将从设置开发环境开始。你将需要一个本地测试服务器、一个Web服务器、一个数据服务器和版本控制工具。如前文所述，这篇教程不需要读者了解后端架构。我们将一步一步地教你来完成整个网站。如果你已经安装了上述工具，可以跳过这一部分。
+我们将从设置开发环境开始。你将需要一个本地测试服务器、一个Web服务器、一个数据服务器和版本控制工具。如前文所述，这篇教程不需要读者了解后端架构。我们将一步一步地教你来完成整个网站。如果你已经有了上述工具，可以跳过这一部分。
 
 ###第1步 安装XMAPP
 在试用了几种不同的解决方案之后，我发现用XAMPP来搭建本地测试服务器是最方便的，因此这篇教程中我将使用XAMPP作为本地测试服务器。
 
-如果你还没有XAMPP,可以从[这里](https://www.apachefriends.org/index.html)下载符合你的操作系统的版本并完成安装。
+如果你还没有XAMPP,可以根据你的操作系统从[这里](https://www.apachefriends.org/index.html)下载相应版本并完成安装。
 
 ![XAMPP网站](https://cms-assets.tutsplus.com/uploads/users/435/posts/21997/image/01-XAMPP-Website)<br>
 XAMPP网站
@@ -33,11 +33,11 @@ XAMPP处于运行状态时的localhost页面
 
 ![](https://cms-assets.tutsplus.com/uploads/users/435/posts/21997/image/06-GitHub-gh-pages.png)
 
-然后进入设置面板，将`gh-pages`作为默认分支
+然后进入设置面板，将`gh-pages`设为默认分支
 
 ![](https://cms-assets.tutsplus.com/uploads/users/435/posts/21997/image/07-GitHub-default-branch.png)
 
-好的，然后我们打开终端，使用命令行将GitHub上的分支复制到XAMPP的`htdocs`文件夹
+好的，然后我们打开终端，使用命令行将GitHub上的分支复制到XAMPP的`htdocs`文件夹中。
 
 	$ cd /Applications/XAMPP/xamppfiles/htdocs
 	$ git clone https://your-git-HTTPS-clone-URL-here
@@ -54,20 +54,20 @@ XAMPP处于运行状态时的localhost页面
 
 ![](https://cms-assets.tutsplus.com/uploads/users/435/posts/21997/image/09-localhost-hello.png)
 
-现在我们把它推送到GitHub上
+现在我们把它推送到GitHub上。
 
 	$ git add index.html
 	$ git commit -am "Add index.html"
 	$ git push
 
-几分钟后，访问http://yourusername.github.io/reponame, 你将可以看到你的index.html出现在了上面。
+几分钟后，访问http://yourusername.github.io/reponame, 你将可以看到你的`index.html`出现在了上面。
 
 ![](https://cms-assets.tutsplus.com/uploads/users/435/posts/21997/image/10-web-hello.png)
 
 ###第3步  注册Parse.js账户
 GitHub Page能够托管静态页面，但是并不能实现后端动态生成页面。幸运的是，我们现在有了Parse.js。我们可以使用Parse.com作为我们的数据服务器，并使用JavaScript与它进行通信。由此，我们只需要在GitHub上托管HTML,CSS和JavaScript文件。
 
-如果你没有一个[Parse.com](http://parse.com)账号，请注册一个。
+如果你没有[Parse.com](http://parse.com)账号，请注册一个。
 
 ![](https://cms-assets.tutsplus.com/uploads/users/435/posts/21997/image/11-parse.png)
 

@@ -46,7 +46,7 @@ $(function() {
 <script src="js/blog.js"></script>
 ```
 
-然后在你的localhost中刷新`index.html`，这是你应该能够看到这条弹框消息：
+再次在你的localhost中刷新`index.html`，这时你应该能够看到这条弹框消息：
 
 ![](https://cms-assets.tutsplus.com/uploads/users/435/posts/21997/image/18-parse-alert.png)
 

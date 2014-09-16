@@ -45,7 +45,7 @@
 ###第3步 复制博客模板示例
 
 打开Bootstrap提供的博客示范：[http://getbootstrap.com/examples/blog/](http://getbootstrap.com/examples/blog/)
-在网页上点击右键，选择“**审查元素**”。我们需要将`body`里面的所有内容复制到我们的`index.html`来替换掉基础模板中的`<h1>Hello, world!</h1>`。
+在网页上点击右键，选择“**查看网页源代码**”。我们需要将`body`里面的所有内容复制到我们的`index.html`来替换掉基础模板中的`<h1>Hello, world!</h1>`。
 
 请不要复制`<script>`标签里的内容，因为我们已经有了我们所需要用到的所有JavaScript文件。
 
