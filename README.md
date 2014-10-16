@@ -3,11 +3,10 @@
 <br/>
 翻译：Quillblue
 
-原作发表于[Tut+](http://www.tutsplus.com)
+原作发表于[Tut+](http://www.tutsplus.com)<br/>
 该GitBook版本为整理个人译稿所得，与发表于[Tut+](http://www.tutsplus.com)的译稿在部分非核心内容上稍有出入。
 
-The original work is published on [Tut+](http://www.tutsplus.com)
-
+The original work is published on [Tut+](http://www.tutsplus.com)<br/>
 This GitBook version is based on my traslation which is also published on [Tut+](http://www.tutsplus.com), but with some adjust on some non-techinal issues to fit GitBook better.
 
 ----------
